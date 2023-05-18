@@ -1,17 +1,18 @@
 package br.com.souza.healthGPT.dto;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import lombok.Data;
 
 @Data
 public class InformationsRequest {
 
-    @NotBlank
+    @NotNull
     private int idade;
-    @NotBlank
+    @NotNull
     private BigDecimal peso;
-    @NotBlank
+    @NotNull
     private BigDecimal altura;
     @NotBlank
     private String objetivo;
