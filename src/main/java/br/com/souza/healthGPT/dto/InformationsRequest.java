@@ -9,7 +9,7 @@ import lombok.Data;
 public class InformationsRequest {
 
     @NotNull
-    private int idade;
+    private Integer idade;
     @NotNull
     private BigDecimal peso;
     @NotNull
