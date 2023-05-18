@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class HealthGptApplication {
 
 	public static void main(String[] args) {
+		System.out.println();
 		SpringApplication.run(HealthGptApplication.class, args);
 	}
 

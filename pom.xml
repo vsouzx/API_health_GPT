@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.9</version>
+		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.souza</groupId>
@@ -14,8 +14,9 @@
 	<name>healthGPT</name>
 	<description>REST API integrada com Chat GPT</description>
 	<properties>
-		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.5</spring-cloud.version>
+		<java.version>17</java.version>
+		<spring-cloud.version>2022.0.1</spring-cloud.version>
+		<springdoc.openapi.starter.webmvc.ui.version>2.0.4</springdoc.openapi.starter.webmvc.ui.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -40,6 +41,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>${springdoc.openapi.starter.webmvc.ui.version}</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

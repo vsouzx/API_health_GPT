@@ -2,7 +2,7 @@ package br.com.souza.healthGPT.controller;
 
 import br.com.souza.healthGPT.dto.InformationsRequest;
 import br.com.souza.healthGPT.service.DietService;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
