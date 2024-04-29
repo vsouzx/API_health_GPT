@@ -14,14 +14,14 @@ public class SwaggerConfig {
 
         Contact contact = new Contact();
 
-        contact.setEmail("abs@absoftware.com.br");
+        contact.setEmail("vtsoliveira201@gmail.comr");
         contact.setName("Vitor Souza");
         contact.setUrl("https://vsportfolio.com.br");
 
         Info info = new Info()
                 .title("Diet Generator")
                 .version("1.0")
-                .description("Diet Generator REST API integrated with Open AI Api.")
+                .description("Diet Generator REST API integrated with Open AI.")
                 .contact(contact);
 
         return new OpenAPI().info(info);
